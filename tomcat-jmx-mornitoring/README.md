@@ -11,7 +11,11 @@
 * Add CATALINA_OPTS
 ```bash
 # set variables for remote jmx
-CATALINA_OPTS="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=true -Dcom.sun.management.jmxremote.password.file=/Library/Tomcat7/conf/jmxremote.password -Dcom.sun.management.jmxremote.access.file=/Library/Tomcat7/conf/jmxremote.access"
+CATALINA_OPTS="-Dcom.sun.management.jmxremote \
+-Dcom.sun.management.jmxremote.ssl=false \
+-Dcom.sun.management.jmxremote.authenticate=true \
+-Dcom.sun.management.jmxremote.password.file=/Library/Tomcat7/conf/jmxremote.password \
+-Dcom.sun.management.jmxremote.access.file=/Library/Tomcat7/conf/jmxremote.access"
 ```
 
 ### $CATALINA_BASE/conf
@@ -32,7 +36,8 @@ admin tomcat
 ```bash
   <!-- Remote JMX Listener -->
   <!-- Connnection: service:jmx:rmi://localhost:8084/jndi/rmi://localhost:8083/jmxrmi -->
-  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" rmiRegistryPortPlatform="8083" rmiServerPortPlatform="8084" />
+  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" 
+    rmiRegistryPortPlatform="8083" rmiServerPortPlatform="8084" />
 ```
 
 * [Download and install VistualVM](https://visualvm.java.net/download.html)
