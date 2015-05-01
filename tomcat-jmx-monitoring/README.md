@@ -1,12 +1,12 @@
-# Tomcat7 JMX Monitoring
+## Tomcat7 JMX Monitoring
 
-## Resources
+### Resources
 * [Enabling JMX Remote](http://tomcat.apache.org/tomcat-7.0-doc/monitoring.html#Enabling_JMX_Remote)
 * [Remote Lifecycle Listener](http://tomcat.apache.org/tomcat-7.0-doc/config/listeners.html#JMX_Remote_Lifecycle_Listener_-_org.apache.catalina.mbeans.JmxRemoteLifecycleListener)
 
-## Modifications
+### Modifications
 
-### $CATALINA_BASE/bin/catalina.sh
+#### $CATALINA_BASE/bin/catalina.sh
 
 * Add CATALINA_OPTS
 ```bash
@@ -18,7 +18,7 @@ CATALINA_OPTS="-Dcom.sun.management.jmxremote \
 -Dcom.sun.management.jmxremote.access.file=/Library/Tomcat7/conf/jmxremote.access"
 ```
 
-### $CATALINA_BASE/conf
+#### $CATALINA_BASE/conf
 
 * Add jmxremote.access, access authorization (username, authorization)
 ```bash
