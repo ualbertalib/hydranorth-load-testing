@@ -30,6 +30,173 @@
         <boolProp name="CookieManager.clearEachIteration">false</boolProp>
       </CookieManager>
       <hashTree/>
+      <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+      <hashTree/>
+      <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>false</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-graph-results.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>false</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-response-time-graph.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>false</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-aggregate-graph.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>false</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-aggregate-report.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>false</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <threadCounts>true</threadCounts>
+          </value>
+        </objProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-spline-visualizer.csv</stringProp>
+      </ResultCollector>
+      <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
@@ -60,7 +227,7 @@
             <threadCounts>true</threadCounts>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-results-tree.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="false">
@@ -143,7 +310,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1429740086000</longProp>
         <longProp name="ThreadGroup.end_time">1429740086000</longProp>
@@ -183,6 +350,8 @@
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         </CookieManager>
         <hashTree/>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+        <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -197,27 +366,24 @@
               <message>true</message>
               <threadName>true</threadName>
               <dataType>true</dataType>
-              <encoding>true</encoding>
+              <encoding>false</encoding>
               <assertions>true</assertions>
               <subresults>true</subresults>
-              <responseData>true</responseData>
+              <responseData>false</responseData>
               <samplerData>false</samplerData>
-              <xml>true</xml>
+              <xml>false</xml>
               <fieldNames>false</fieldNames>
-              <responseHeaders>true</responseHeaders>
-              <requestHeaders>true</requestHeaders>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
               <responseDataOnError>false</responseDataOnError>
               <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
               <bytes>true</bytes>
-              <url>true</url>
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">C:\apache-jmeter-2.13\bin\test\results\hn-test-graph-results.xml</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-graph-results.csv</stringProp>
         </ResultCollector>
-        <hashTree/>
-        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
         <hashTree/>
         <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -249,7 +415,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">C:\apache-jmeter-2.13\bin\test\results\hn-test-response-time-graph.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-response-time-graph.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
@@ -282,7 +448,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">C:\apache-jmeter-2.13\bin\test\results\hn-test-aggregate-graph.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-aggregate-graph.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -315,7 +481,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">C:\apache-jmeter-2.13\bin\test\results\hn-test-aggregate-report.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-aggregate-report.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
@@ -348,7 +514,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">C:\apache-jmeter-2.13\bin\test\results\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -381,7 +547,40 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-results-tree.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-summary-report.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Login Controller" enabled="true"/>
@@ -440,75 +639,62 @@
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
+          <hashTree>
+            <HTMLAssertion guiclass="HTMLAssertionGui" testclass="HTMLAssertion" testname="HTML Assertion" enabled="true">
+              <longProp name="html_assertion_error_threshold">0</longProp>
+              <longProp name="html_assertion_warning_threshold">0</longProp>
+              <stringProp name="html_assertion_doctype">omit</stringProp>
+              <boolProp name="html_assertion_errorsonly">true</boolProp>
+              <longProp name="html_assertion_format">0</longProp>
+              <stringProp name="html_assertion_filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\login-html-assertion-jtidy.txt</stringProp>
+            </HTMLAssertion>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="931145317">charoenw@ualberta.ca</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">16</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="Assertion Results" enabled="false">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>false</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <threadCounts>true</threadCounts>
+              </value>
+            </objProp>
+            <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\login-assertion-results.csv</stringProp>
+          </ResultCollector>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Upload Controller" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Upload Controller" enabled="false"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Compressed, zip, 1.53 GB" enabled="false">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments">
-                <elementProp name="total_upload_size" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">235352</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">total_upload_size</stringProp>
-                </elementProp>
-                <elementProp name="relative_path" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value"></stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">relative_path</stringProp>
-                </elementProp>
-                <elementProp name="batch_id" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">70795888v</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">batch_id</stringProp>
-                </elementProp>
-                <elementProp name="file_coming_from" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">local</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">file_coming_from</stringProp>
-                </elementProp>
-                <elementProp name="terms_of_service" elementType="HTTPArgument">
-                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">1</stringProp>
-                  <stringProp name="Argument.metadata">=</stringProp>
-                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                  <stringProp name="Argument.name">terms_of_service</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain"></stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            <stringProp name="HTTPSampler.protocol"></stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/files</stringProp>
-            <stringProp name="HTTPSampler.method">POST</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
-            <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
-              <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip</stringProp>
-                  <stringProp name="File.paramname">files[]</stringProp>
-                  <stringProp name="File.mimetype">application/pdf</stringProp>
-                </elementProp>
-              </collectionProp>
-            </elementProp>
-            <boolProp name="HTTPSampler.monitor">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Book, pdf, 75.4 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -2004,13 +2190,78 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Big File, zip, 1.53 GB" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="total_upload_size" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">235352</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">total_upload_size</stringProp>
+                </elementProp>
+                <elementProp name="relative_path" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value"></stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">relative_path</stringProp>
+                </elementProp>
+                <elementProp name="batch_id" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">70795888v</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">batch_id</stringProp>
+                </elementProp>
+                <elementProp name="file_coming_from" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">local</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">file_coming_from</stringProp>
+                </elementProp>
+                <elementProp name="terms_of_service" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">1</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">terms_of_service</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/files</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
+            <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
+              <collectionProp name="HTTPFileArgs.files">
+                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip" elementType="HTTPFileArg">
+                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip</stringProp>
+                  <stringProp name="File.paramname">files[]</stringProp>
+                  <stringProp name="File.mimetype">application/pdf</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
         </hashTree>
-        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Upload Controller" enabled="false">
+        <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Upload Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">10</stringProp>
         </LoopController>
         <hashTree>
-          <RandomOrderController guiclass="RandomOrderControllerGui" testclass="RandomOrderController" testname="Random Order Controller" enabled="false"/>
+          <RandomOrderController guiclass="RandomOrderControllerGui" testclass="RandomOrderController" testname="Random Order Controller" enabled="true"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Book, pdf, 75.4 MB" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
@@ -2066,8 +2317,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2131,8 +2382,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2196,8 +2447,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2261,8 +2512,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2326,8 +2577,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2391,8 +2642,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2456,8 +2707,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2521,8 +2772,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2586,8 +2837,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2651,8 +2902,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2716,8 +2967,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2781,8 +3032,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2846,8 +3097,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2911,8 +3162,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -2976,8 +3227,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3041,8 +3292,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3106,8 +3357,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3171,8 +3422,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3236,8 +3487,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3301,8 +3552,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3366,8 +3617,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\yeung.mp3" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\yeung.mp3</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\yeung.mp3" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\yeung.mp3</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3431,8 +3682,8 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3496,8 +3747,73 @@
               <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm" elementType="HTTPFileArg">
-                    <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm</stringProp>
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm</stringProp>
+                    <stringProp name="File.paramname">files[]</stringProp>
+                    <stringProp name="File.mimetype">application/pdf</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <boolProp name="HTTPSampler.monitor">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Big File, zip, 1.53 GB" enabled="true">
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="total_upload_size" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">235352</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">total_upload_size</stringProp>
+                  </elementProp>
+                  <elementProp name="relative_path" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value"></stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">relative_path</stringProp>
+                  </elementProp>
+                  <elementProp name="batch_id" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">70795888v</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">batch_id</stringProp>
+                  </elementProp>
+                  <elementProp name="file_coming_from" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">local</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">file_coming_from</stringProp>
+                  </elementProp>
+                  <elementProp name="terms_of_service" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">1</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                    <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                    <stringProp name="Argument.name">terms_of_service</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain"></stringProp>
+              <stringProp name="HTTPSampler.port"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+              <stringProp name="HTTPSampler.protocol"></stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">/files</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
+              <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
+                <collectionProp name="HTTPFileArgs.files">
+                  <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip" elementType="HTTPFileArg">
+                    <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip</stringProp>
                     <stringProp name="File.paramname">files[]</stringProp>
                     <stringProp name="File.mimetype">application/pdf</stringProp>
                   </elementProp>
@@ -3508,7 +3824,7 @@
             </HTTPSamplerProxy>
             <hashTree/>
           </hashTree>
-          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="false">
             <boolProp name="LoopController.continue_forever">true</boolProp>
             <stringProp name="LoopController.loops">10</stringProp>
           </LoopController>
@@ -3571,8 +3887,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\BIOL207_111128_textbook.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3636,8 +3952,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Postmark+and+Cachets+Book+September+2013.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3701,8 +4017,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Ross_Campbell+-+Teaching+in+Northern+Alberta+Communities.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3766,8 +4082,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DontMindtheGap.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3831,8 +4147,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3896,8 +4212,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -3961,8 +4277,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4026,8 +4342,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EBLIP2013poster.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4091,8 +4407,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\ETG+Sudanese+Ladies-2013sept27-final.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4156,8 +4472,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4221,8 +4537,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4286,8 +4602,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4351,8 +4667,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\university_feed.mdb</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4416,8 +4732,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4481,8 +4797,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4546,8 +4862,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104b.jpg</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4611,8 +4927,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_103c.jpg</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4676,8 +4992,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4741,8 +5057,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceConsumerExp.mp3</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4806,8 +5122,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4871,8 +5187,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\yeung.mp3" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\yeung.mp3</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\yeung.mp3" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\yeung.mp3</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -4936,8 +5252,8 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Transferring+evidence+into+practice+what+evidence+summaries+of+library+and+information+studies+research+tell+practitioners.htm</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -5001,8 +5317,73 @@
                 <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
                 <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                   <collectionProp name="HTTPFileArgs.files">
-                    <elementProp name="P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm" elementType="HTTPFileArg">
-                      <stringProp name="File.path">P:\Piyapong\workspace\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm</stringProp>
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Lego+Robot+Control+via+a+Speech+Generating+Communication+Device+for+Play+and+Educational+Activities.htm</stringProp>
+                      <stringProp name="File.paramname">files[]</stringProp>
+                      <stringProp name="File.mimetype">application/pdf</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </elementProp>
+                <boolProp name="HTTPSampler.monitor">false</boolProp>
+                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              </HTTPSamplerProxy>
+              <hashTree/>
+              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Big File, zip, 1.53 GB" enabled="true">
+                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+                  <collectionProp name="Arguments.arguments">
+                    <elementProp name="total_upload_size" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">235352</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">total_upload_size</stringProp>
+                    </elementProp>
+                    <elementProp name="relative_path" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value"></stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">relative_path</stringProp>
+                    </elementProp>
+                    <elementProp name="batch_id" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">70795888v</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">batch_id</stringProp>
+                    </elementProp>
+                    <elementProp name="file_coming_from" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">local</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">file_coming_from</stringProp>
+                    </elementProp>
+                    <elementProp name="terms_of_service" elementType="HTTPArgument">
+                      <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                      <stringProp name="Argument.value">1</stringProp>
+                      <stringProp name="Argument.metadata">=</stringProp>
+                      <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                      <stringProp name="Argument.name">terms_of_service</stringProp>
+                    </elementProp>
+                  </collectionProp>
+                </elementProp>
+                <stringProp name="HTTPSampler.domain"></stringProp>
+                <stringProp name="HTTPSampler.port"></stringProp>
+                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+                <stringProp name="HTTPSampler.response_timeout"></stringProp>
+                <stringProp name="HTTPSampler.protocol"></stringProp>
+                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+                <stringProp name="HTTPSampler.path">/files</stringProp>
+                <stringProp name="HTTPSampler.method">POST</stringProp>
+                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+                <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
+                <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
+                  <collectionProp name="HTTPFileArgs.files">
+                    <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip" elementType="HTTPFileArg">
+                      <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Andrew_Israelsen_External_Documents.zip</stringProp>
                       <stringProp name="File.paramname">files[]</stringProp>
                       <stringProp name="File.mimetype">application/pdf</stringProp>
                     </elementProp>
@@ -6273,7 +6654,7 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
@@ -6284,105 +6665,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
-          <objProp>
-            <name>saveConfig</name>
-            <value class="SampleSaveConfiguration">
-              <time>true</time>
-              <latency>true</latency>
-              <timestamp>true</timestamp>
-              <success>true</success>
-              <label>true</label>
-              <code>true</code>
-              <message>true</message>
-              <threadName>true</threadName>
-              <dataType>true</dataType>
-              <encoding>false</encoding>
-              <assertions>true</assertions>
-              <subresults>true</subresults>
-              <responseData>false</responseData>
-              <samplerData>false</samplerData>
-              <xml>false</xml>
-              <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
-              <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
-              <assertionsResultsToSave>0</assertionsResultsToSave>
-              <bytes>true</bytes>
-              <threadCounts>true</threadCounts>
-            </value>
-          </objProp>
-          <stringProp name="filename"></stringProp>
-        </ResultCollector>
-        <hashTree/>
-        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
-          <objProp>
-            <name>saveConfig</name>
-            <value class="SampleSaveConfiguration">
-              <time>true</time>
-              <latency>true</latency>
-              <timestamp>true</timestamp>
-              <success>true</success>
-              <label>true</label>
-              <code>true</code>
-              <message>true</message>
-              <threadName>true</threadName>
-              <dataType>true</dataType>
-              <encoding>false</encoding>
-              <assertions>true</assertions>
-              <subresults>true</subresults>
-              <responseData>false</responseData>
-              <samplerData>false</samplerData>
-              <xml>false</xml>
-              <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
-              <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
-              <assertionsResultsToSave>0</assertionsResultsToSave>
-              <bytes>true</bytes>
-              <threadCounts>true</threadCounts>
-            </value>
-          </objProp>
-          <stringProp name="filename"></stringProp>
-        </ResultCollector>
-        <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
-          <objProp>
-            <name>saveConfig</name>
-            <value class="SampleSaveConfiguration">
-              <time>true</time>
-              <latency>true</latency>
-              <timestamp>true</timestamp>
-              <success>true</success>
-              <label>true</label>
-              <code>true</code>
-              <message>true</message>
-              <threadName>true</threadName>
-              <dataType>true</dataType>
-              <encoding>false</encoding>
-              <assertions>true</assertions>
-              <subresults>true</subresults>
-              <responseData>false</responseData>
-              <samplerData>false</samplerData>
-              <xml>false</xml>
-              <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
-              <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
-              <assertionsResultsToSave>0</assertionsResultsToSave>
-              <bytes>true</bytes>
-              <threadCounts>true</threadCounts>
-            </value>
-          </objProp>
-          <stringProp name="filename"></stringProp>
-        </ResultCollector>
-        <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Simple Search Controller" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Search &quot;lego&quot;" enabled="true">
@@ -6569,6 +6851,206 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+        <hashTree/>
+        <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-graph-results.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-response-time-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-aggregate-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-aggregate-report.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-spline-visualizer.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\upload\hn-test-results-tree.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Login Thread Group" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -6576,7 +7058,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1430775833000</longProp>
         <longProp name="ThreadGroup.end_time">1430775833000</longProp>
@@ -6664,38 +7146,7 @@
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         </CookieManager>
         <hashTree/>
-        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
-          <objProp>
-            <name>saveConfig</name>
-            <value class="SampleSaveConfiguration">
-              <time>true</time>
-              <latency>true</latency>
-              <timestamp>true</timestamp>
-              <success>true</success>
-              <label>true</label>
-              <code>true</code>
-              <message>true</message>
-              <threadName>true</threadName>
-              <dataType>true</dataType>
-              <encoding>false</encoding>
-              <assertions>true</assertions>
-              <subresults>true</subresults>
-              <responseData>false</responseData>
-              <samplerData>false</samplerData>
-              <xml>false</xml>
-              <fieldNames>false</fieldNames>
-              <responseHeaders>false</responseHeaders>
-              <requestHeaders>false</requestHeaders>
-              <responseDataOnError>false</responseDataOnError>
-              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
-              <assertionsResultsToSave>0</assertionsResultsToSave>
-              <bytes>true</bytes>
-              <threadCounts>true</threadCounts>
-            </value>
-          </objProp>
-          <stringProp name="filename"></stringProp>
-        </ResultCollector>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
         <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -6727,10 +7178,140 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\edit\all\hn-test-graph-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
-        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+        <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-response-time-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-aggregate-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-aggregate-report.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-spline-visualizer.csv</stringProp>
+        </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -6762,7 +7343,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-results-tree.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Login Controller" enabled="true"/>
@@ -7606,6 +8187,8 @@
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         </CookieManager>
         <hashTree/>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+        <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -7636,7 +8219,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-graph-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
@@ -7669,7 +8252,106 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-response-time-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-aggregate-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-aggregate-report.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -7702,7 +8384,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-results-tree.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Login Controller" enabled="true"/>
@@ -9314,6 +9996,8 @@ log.info(&quot;Done.&quot;);
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
         </CookieManager>
         <hashTree/>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generate Summary Results" enabled="true"/>
+        <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -9344,7 +10028,7 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-graph-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
@@ -9377,7 +10061,106 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-response-time-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-aggregate-graph.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-aggregate-report.csv</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SplineVisualizer" testclass="ResultCollector" testname="Spline Visualizer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>false</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+            </value>
+          </objProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -9410,7 +10193,7 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-results-tree.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Login Controller" enabled="true"/>
@@ -9594,6 +10377,87 @@ log.info(&quot;Done.&quot;);
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+                </elementProp>
+                <elementProp name="Cache-Control" elementType="Header">
+                  <stringProp name="Header.name">Cache-Control</stringProp>
+                  <stringProp name="Header.value">max-age=0</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">en-CA,en;q=0.8,th;q=0.6,en-GB;q=0.4,en-US;q=0.2,fr;q=0.2</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Origin" elementType="Header">
+                  <stringProp name="Header.name">Origin</stringProp>
+                  <stringProp name="Header.value">http://era-test.library.ualberta.ca</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">http://era-test.library.ualberta.ca/dashboard/files</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="2 /collections/1g05fc81d" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="_method" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">_method</stringProp>
+                  <stringProp name="Argument.value">put</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="batch_document_ids%5B%5D" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">batch_document_ids%5B%5D</stringProp>
+                  <stringProp name="Argument.value">1g05fc758</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+                <elementProp name="collection%5Bmembers%5D" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.name">collection%5Bmembers%5D</stringProp>
+                  <stringProp name="Argument.value">add</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">era-test.library.ualberta.ca</stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol">http</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/collections/1g05fc81d</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
           </HTTPSamplerProxy>
           <hashTree>
             <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
