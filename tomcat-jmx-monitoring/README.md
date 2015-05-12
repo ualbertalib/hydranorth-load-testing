@@ -32,6 +32,8 @@ admin tomcat
 admin tomcat
 ```
 
+* Download [JMX Remote jar](http://apache.sunsite.ualberta.ca/tomcat/tomcat-7/v7.0.61/bin/extras/catalina-jmx-remote.jar) and copy to $CATALINA_BASE/lib
+
 * Add JmxRemoteLifecycleListener in server.xml
 ```bash
   <!-- Remote JMX Listener -->
@@ -39,6 +41,8 @@ admin tomcat
   <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" 
     rmiRegistryPortPlatform="8083" rmiServerPortPlatform="8084" />
 ```
+
+* Restart Tomcat.
 
 * [Download and install VistualVM](https://visualvm.java.net/download.html)
 
