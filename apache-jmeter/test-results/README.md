@@ -13,7 +13,7 @@
   * Click browse button and open result file
 
 ### 2015.05.13: Test Results for Upload 10 Users 1 Loop
-* testing only on oldham.library.ualberta.ca
+* Server: oldham.library.ualberta.ca
 
 Samples | Failed  | Max (ms) | Min (ms) | Ave (ms) | Throuhput (#/m) | KB/s
 ------------------- | -------- | ------------ | ----------- | ------------ | --------------------- | --------
@@ -22,8 +22,10 @@ Samples | Failed  | Max (ms) | Min (ms) | Ave (ms) | Throuhput (#/m) | KB/s
 JMeter Results: [2015.05.13 - Upload 10 Users 1 Loop](https://github.com/ualbertalib/hydranorth-load-testing/tree/master/apache-jmeter/test-results/2015.05.13%20-%20Upload%2010%20Users%201%20Loop)
 
 ### 2015.05.13: Test Results for Upload 10 Users 5 Loops
-* testing only on oldham.library.ualberta.ca
-* start from 14:50 - 18:12, 3 h. 22 m.
+* Server: oldham.library.ualberta.ca
+* Average File Size: 56 KB
+* Time Start/End: 14:50/18:12
+* Total Time: 3 h 22 m
 
 Samples | Failed  | Max (ms) | Min (ms) | Ave (ms) | Throuhput (#/m) | KB/s
 ------------------- | -------- | ------------ | ----------- | ------------ | --------------------- | --------
