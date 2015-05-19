@@ -194,7 +194,7 @@
             <threadCounts>true</threadCounts>
           </value>
         </objProp>
-        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-spline-visualizer.csv</stringProp>
+        <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\all\hn-test-spline-visualizer.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -7869,7 +7869,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -8513,7 +8513,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\view\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\view\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -9139,7 +9139,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\all\hn-test-graph-results.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-graph-results.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
@@ -9271,7 +9271,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\edit\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -11963,7 +11963,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\revision\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -13772,7 +13772,7 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\add\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -14296,7 +14296,7 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\remove\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\remove\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
@@ -14578,7 +14578,7 @@ log.info(&quot;Done.&quot;);
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-spline-visualizer.csv</stringProp>
+          <stringProp name="filename">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\results\search\hn-test-spline-visualizer.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
