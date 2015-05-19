@@ -1,5 +1,4 @@
 ## Test Results
-* [Github Project](https://github.com/ualbertalib/hydranorth-load-testing)
 
 ### How to view JMeter Results
   * Clone hydranorth-load-testing project
