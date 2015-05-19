@@ -1198,3 +1198,32 @@
 1432059124076,4909,73 /catalog,500,Internal Server Error,Search Thread Group 1-1,text,false,818,3,3,4909
 1432059125115,4883,123 /catalog,500,Internal Server Error,Search Thread Group 1-10,text,false,818,2,2,4882
 1432059125115,4887,83 /catalog,500,Internal Server Error,Search Thread Group 1-4,text,false,818,2,2,4887
+1432071370012,556,Home Page,200,OK,Upload Thread Group 1-1,text,true,8064,1,1,556
+1432071370573,303,Login,200,OK,Upload Thread Group 1-1,text,true,11403,1,1,150
+1432071371013,4722,"Conference Workshop Presentation, mp3, 108 MB",Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Upload Thread Group 1-1,text,false,2689,1,1,0
+1432071413701,647,Home Page,200,OK,Upload Thread Group 1-1,text,true,8544,1,1,647
+1432071414355,406,Login,200,OK,Upload Thread Group 1-1,text,true,11876,1,1,198
+1432071414792,9088,"Dataset, xlsx, 49.1 MB",200,OK,Upload Thread Group 1-1,text,true,609,1,1,9088
+1432071423860,12024,"Research Material, jpeg, 217 KB",200,OK,Upload Thread Group 1-1,text,true,641,1,1,12024
+1432071435921,14084,"Research Material, jpeg, 203 KB",200,OK,Upload Thread Group 1-1,text,true,641,1,1,14084
+1432071450011,41042,"Conference Workshop Presentation, mp3, 29.5 MB",200,OK,Upload Thread Group 1-1,text,true,639,1,1,41031
+1432071491061,11018,"Journal Article Published, html, 24.2 KB",200,OK,Upload Thread Group 1-1,text,true,733,1,1,11018
+1432071502087,9042,"Conference Workshop Presentation, html, 61.9 KB",200,OK,Upload Thread Group 1-1,text,true,755,1,1,9042
+1432071511139,101321,"Conference Workshop Presentation, mp3, 108 MB",200,OK,Upload Thread Group 1-1,text,true,648,1,1,101301
+1432071612453,7,"Conference/workshop Presentation, mov, 492 MB",Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CIHR+Part+1.mov (The system cannot find the file specified),Upload Thread Group 1-1,text,false,2569,1,1,0
+1432071612469,16272,"Conference Workshop Presentation, pptx, 5.78 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,16270
+1432071628765,26890,"Conference Workshop Presentation, pdf, 5.08 MB",200,OK,Upload Thread Group 1-1,text,true,662,1,1,26887
+1432071655664,70044,"Dataset, zip, 99.6 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,70011
+1432071725715,8995,"Research Material, jpeg, 206 KB",200,OK,Upload Thread Group 1-1,text,true,640,1,1,8995
+1432071735823,20153,"Book Chaper, pdf, 229 KB",200,OK,Upload Thread Group 1-1,text,true,648,1,1,20153
+1432071755985,19288,"Book Chaper, pdf, 326 KB",200,OK,Upload Thread Group 1-1,text,true,652,1,1,19287
+1432071775249,70476,"Book, pdf, 75.4 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432071845762,39817,"Conference Workshop Poster, pdf, 1.55 KB",200,OK,Upload Thread Group 1-1,text,true,649,1,1,39817
+1432071885585,21794,"Conference Workshop Poster, pdf, 1.21 KB",200,OK,Upload Thread Group 1-1,text,true,670,1,1,21794
+1432071907382,119690,"Conference Workshop Presentation, zip, 46.6 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,119679
+1432072027050,32614,"Conference Workshop Presentation, mp3, 74.8 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,32596
+1432072059698,52226,"Book, pdf, 5.59 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432072111936,8093,"Conference Workshop Poster, ppt, 635 KB",200,OK,Upload Thread Group 1-1,text,true,568,1,1,8092
+1432072120010,50434,"Book, pdf, 2.49 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432072170486,324339,"Dataset, mdb, 538 MB",500,Internal Server Error,Upload Thread Group 1-1,text,false,855,1,1,324339
+1432072494836,8770,"Book Chaper, docx, 45.5 KB",200,OK,Upload Thread Group 1-1,text,true,568,1,1,8770

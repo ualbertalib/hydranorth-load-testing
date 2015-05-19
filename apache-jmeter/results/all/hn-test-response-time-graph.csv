@@ -1198,3 +1198,66 @@
 1432059124076,4909,73 /catalog,500,Internal Server Error,Search Thread Group 1-1,text,false,818,3,3,4909
 1432059125115,4883,123 /catalog,500,Internal Server Error,Search Thread Group 1-10,text,false,818,2,2,4882
 1432059125115,4887,83 /catalog,500,Internal Server Error,Search Thread Group 1-4,text,false,818,2,2,4887
+1432071207408,654,Home Page,200,OK,Download Thread Group 1-1,text,true,8543,1,1,653
+1432071208083,534,Login,200,OK,Download Thread Group 1-1,text,true,11876,1,1,235
+1432071208642,62,11 /downloads/1g05fd88j,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,62
+1432071208712,36,6 /downloads/1g05fd91v,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,36
+1432071208756,45,16 /downloads/1g05fd84f,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,45
+1432071208808,30,21 /downloads/1g05fd82w,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071208845,47,35 /downloads/1g05fd79k,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,47
+1432071208900,30,26 /downloads/1g05fd80b,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071208937,44,36 /downloads/1g05fd789,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,44
+1432071208989,30,40 /downloads/1g05fd746,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071209030,46,31 /downloads/1g05fd835,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,46
+1432071209084,32,14 /downloads/1g05fd860,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,32
+1432071209124,46,7 /downloads/1g05fd90k,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,46
+1432071209179,30,33 /downloads/1g05fd81m,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071209217,45,4 /downloads/1g05fd93d,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,45
+1432071209271,30,22 /downloads/1g05fd81m,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071209310,41,15 /downloads/1g05fd85q,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,41
+1432071209359,33,30 /downloads/1g05fd746,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,32
+1432071209400,49,12 /downloads/1g05fd878,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,49
+1432071209457,54,23 /downloads/1g05fd789,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,54
+1432071209521,41,24 /downloads/1g05fd79k,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,41
+1432071209567,31,34 /downloads/1g05fd80b,500,Internal Server Error,Download Thread Group 1-1,text,false,855,1,1,30
+1432071287341,682,Home Page,200,OK,Download Thread Group 1-1,text,true,8064,1,1,682
+1432071288030,546,Login,200,OK,Download Thread Group 1-1,text,true,11403,1,1,211
+1432071288582,740,101 /downloads/x920h8221,200,OK,Download Thread Group 1-1,text,true,537535,1,1,739
+1432071289326,965,105 /downloads/x920h470v,200,OK,Download Thread Group 1-1,text,true,2902197,1,1,953
+1432071290295,693,108 /downloads/x920hg72g,200,OK,Download Thread Group 1-1,text,true,4115766,1,1,674
+1432071290991,919,109 /downloads/x920h576q,200,OK,Download Thread Group 1-1,text,true,2639044,1,1,897
+1432071291914,704,106 /downloads/x920h309f,200,OK,Download Thread Group 1-1,text,true,3105922,1,1,695
+1432071292622,1153,107 /downloads/x920jr56x,200,OK,Download Thread Group 1-1,text,true,9924590,1,1,1000
+1432071293780,955,110 /downloads/x920h181r,200,OK,Download Thread Group 1-1,text,true,832615,1,1,941
+1432071294742,813,102 /downloads/x920jp78j,200,OK,Download Thread Group 1-1,text,true,921405,1,1,811
+1432071295559,1033,103 /downloads/x920h187d,200,OK,Download Thread Group 1-1,text,true,2166667,1,1,984
+1432071296596,734,119 /downloads/x920hc62m,200,OK,Download Thread Group 1-1,text,true,1933753,1,1,730
+1432071370012,556,Home Page,200,OK,Upload Thread Group 1-1,text,true,8064,1,1,556
+1432071370573,303,Login,200,OK,Upload Thread Group 1-1,text,true,11403,1,1,150
+1432071371013,4722,"Conference Workshop Presentation, mp3, 108 MB",Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Upload Thread Group 1-1,text,false,2689,1,1,0
+1432071413701,647,Home Page,200,OK,Upload Thread Group 1-1,text,true,8544,1,1,647
+1432071414355,406,Login,200,OK,Upload Thread Group 1-1,text,true,11876,1,1,198
+1432071414792,9088,"Dataset, xlsx, 49.1 MB",200,OK,Upload Thread Group 1-1,text,true,609,1,1,9088
+1432071423860,12024,"Research Material, jpeg, 217 KB",200,OK,Upload Thread Group 1-1,text,true,641,1,1,12024
+1432071435921,14084,"Research Material, jpeg, 203 KB",200,OK,Upload Thread Group 1-1,text,true,641,1,1,14084
+1432071450011,41042,"Conference Workshop Presentation, mp3, 29.5 MB",200,OK,Upload Thread Group 1-1,text,true,639,1,1,41031
+1432071491061,11018,"Journal Article Published, html, 24.2 KB",200,OK,Upload Thread Group 1-1,text,true,733,1,1,11018
+1432071502087,9042,"Conference Workshop Presentation, html, 61.9 KB",200,OK,Upload Thread Group 1-1,text,true,755,1,1,9042
+1432071511139,101321,"Conference Workshop Presentation, mp3, 108 MB",200,OK,Upload Thread Group 1-1,text,true,648,1,1,101301
+1432071612453,7,"Conference/workshop Presentation, mov, 492 MB",Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CIHR+Part+1.mov (The system cannot find the file specified),Upload Thread Group 1-1,text,false,2569,1,1,0
+1432071612469,16272,"Conference Workshop Presentation, pptx, 5.78 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,16270
+1432071628765,26890,"Conference Workshop Presentation, pdf, 5.08 MB",200,OK,Upload Thread Group 1-1,text,true,662,1,1,26887
+1432071655664,70044,"Dataset, zip, 99.6 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,70011
+1432071725715,8995,"Research Material, jpeg, 206 KB",200,OK,Upload Thread Group 1-1,text,true,640,1,1,8995
+1432071735823,20153,"Book Chaper, pdf, 229 KB",200,OK,Upload Thread Group 1-1,text,true,648,1,1,20153
+1432071755985,19288,"Book Chaper, pdf, 326 KB",200,OK,Upload Thread Group 1-1,text,true,652,1,1,19287
+1432071775249,70476,"Book, pdf, 75.4 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432071845762,39817,"Conference Workshop Poster, pdf, 1.55 KB",200,OK,Upload Thread Group 1-1,text,true,649,1,1,39817
+1432071885585,21794,"Conference Workshop Poster, pdf, 1.21 KB",200,OK,Upload Thread Group 1-1,text,true,670,1,1,21794
+1432071907382,119690,"Conference Workshop Presentation, zip, 46.6 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,119679
+1432072027050,32614,"Conference Workshop Presentation, mp3, 74.8 MB",200,OK,Upload Thread Group 1-1,text,true,569,1,1,32596
+1432072059698,52226,"Book, pdf, 5.59 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432072111936,8093,"Conference Workshop Poster, ppt, 635 KB",200,OK,Upload Thread Group 1-1,text,true,568,1,1,8092
+1432072120010,50434,"Book, pdf, 2.49 MB",Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: The target server failed to respond,Upload Thread Group 1-1,text,false,2090,1,1,0
+1432072170486,324339,"Dataset, mdb, 538 MB",500,Internal Server Error,Upload Thread Group 1-1,text,false,855,1,1,324339
+1432072494836,8770,"Book Chaper, docx, 45.5 KB",200,OK,Upload Thread Group 1-1,text,true,568,1,1,8770
