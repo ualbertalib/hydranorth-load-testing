@@ -1,0 +1,15 @@
+---
+execution:
+  scenario:
+   script: hn-test-plan.jmx
+modules:
+# store report on blazemeter.com 
+#  blazemeter:
+#    token: 53669adc226f75ba341e
+# enable/disable console report
+  console:
+    disable: true
+reporting:
+#  - module: blazemeter
+#    test: HydraNorth Performance Testing
+  - module: console
