@@ -2,9 +2,9 @@
 execution:
   scenario:
     script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
-  concurrency: 1
+  concurrency: 3
   ramp-up: 5s
-  iterations: 1
+  iterations: 3
 modules:
   consolidator:
     generalize-labels: false

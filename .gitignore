@@ -1,7 +1,7 @@
 /.project
 *.md.html
 /jmeter.log
-jnit.xml
+junit.xml
 bzt.log
 *.url
 2015-*

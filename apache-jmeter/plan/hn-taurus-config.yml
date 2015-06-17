@@ -8,7 +8,7 @@ execution:
 modules:
   blazemeter:
     browser-open: false
-    token: 53669adc226f75ba341e
+#    token: 53669adc226f75ba341e
   console:
     disable: true
   consolidator:
