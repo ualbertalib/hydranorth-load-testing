@@ -2,13 +2,13 @@
 execution:
   scenario:
     script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
-  concurrency: 1
+  concurrency: 3
   ramp-up: 5s
-  iterations: 1
+  iterations: 3
 modules:
   blazemeter:
     browser-open: false
-#    token: 53669adc226f75ba341e
+    token: 53669adc226f75ba341e
   console:
     disable: true
   consolidator:
