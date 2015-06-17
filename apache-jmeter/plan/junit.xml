@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite failures="1" name="taurus_junitxml_pass_fail" skip="0" tests="2">
+  <testcase classname="avg-rt&gt;6000ms for 10s" name="">
+    <error message="" type="pass/fail criteria triggered"/>
+  </testcase>
+  <testcase classname="fail&gt;50% for 5s" name=""/>
+</testsuite>

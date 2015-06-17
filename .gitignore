@@ -1,4 +1,8 @@
 /.project
 *.md.html
-
 /jmeter.log
+jnit.xml
+bzt.log
+*.url
+2015-*
+

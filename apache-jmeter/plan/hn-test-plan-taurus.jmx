@@ -22,7 +22,7 @@
         <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
-        <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
+        <stringProp name="HTTPSampler.implementation">HttpClient3.1</stringProp>
         <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
       </ConfigTestElement>
       <hashTree/>
@@ -92,7 +92,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Upload Thread Group" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Upload Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -205,7 +205,7 @@
         </hashTree>
         <RandomOrderController guiclass="RandomOrderControllerGui" testclass="RandomOrderController" testname="Random Upload Controller" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Book Chaper, docx, 45.5 KB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Book Chaper, docx, 45.5 KB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -257,11 +257,10 @@
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
             <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
-            <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/qqml+conf+-+paper+-+mar+30+final+-+revised+nov+16.docx</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/msword</stringProp>
                 </elementProp>
@@ -325,8 +324,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\CPA_2012_InTech_14.pdf</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/CPA_2012_InTech_14.pdf" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/CPA_2012_InTech_14.pdf</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -336,7 +335,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Poster, ppt, 635 KB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Poster, ppt, 635 KB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -390,8 +389,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Poster2008+final.ppt</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/Poster2008+final.ppt" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/Poster2008+final.ppt</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -401,7 +400,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, pptx, 5.78 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, pptx, 5.78 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -455,8 +454,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\DMP_Presentation_Final.pptx</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/DMP_Presentation_Final.pptx" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/DMP_Presentation_Final.pptx</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -466,7 +465,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, zip, 46.6 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, zip, 46.6 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -520,8 +519,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\EDSE+327+Guest+Lecture+2013.zip</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/EDSE+327+Guest+Lecture+2013.zip" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/EDSE+327+Guest+Lecture+2013.zip</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -531,7 +530,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, pdf, 5.08 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, pdf, 5.08 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -585,8 +584,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\Research+Showcase+2013-FINAL.pdf</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/Research+Showcase+2013-FINAL.pdf" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/Research+Showcase+2013-FINAL.pdf</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -596,7 +595,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Dataset, zip, 99.6 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Dataset, zip, 2.1 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -650,8 +649,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\GlobalizationCompendiumArchive.zip</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/CanadianSocialInvestments-Jantzi-2004-08.zip" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/CanadianSocialInvestments-Jantzi-2004-08.zip</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -661,7 +660,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Dataset, xlsx, 49.1 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Dataset, xlsx, 49.1 MB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -715,8 +714,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\PolarBearHomeRange.xlsx</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/PolarBearHomeRange.xlsx" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/PolarBearHomeRange.xlsx</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -726,7 +725,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Research Material, jpeg, 206 KB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Research Material, jpeg, 206 KB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -780,8 +779,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\87_104a.jpg</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/87_104a.jpg" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/87_104a.jpg</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -791,7 +790,7 @@
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, mp3, 108 MB" enabled="false">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Conference Workshop Presentation, pdf, 338 KB" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="total_upload_size" elementType="HTTPArgument">
@@ -845,8 +844,8 @@
             <boolProp name="HTTPSampler.DO_MULTIPART_POST">true</boolProp>
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3" elementType="HTTPFileArg">
-                  <stringProp name="File.path">Y:\Hydra North\hydranorth-load-testing\apache-jmeter\data\eServiceABGovt.mp3</stringProp>
+                <elementProp name="./apache-jmeter/data/upload/J.Phys.IV.6000.pdf" elementType="HTTPFileArg">
+                  <stringProp name="File.path">./apache-jmeter/data/upload/J.Phys.IV.6000.pdf</stringProp>
                   <stringProp name="File.paramname">files[]</stringProp>
                   <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
@@ -858,13 +857,13 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Download Thread Group" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Download Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1429740086000</longProp>
         <longProp name="ThreadGroup.end_time">1429740086000</longProp>
@@ -2432,13 +2431,13 @@
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Search Thread Group" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Search Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1430505895000</longProp>
         <longProp name="ThreadGroup.end_time">1430505895000</longProp>
@@ -2806,13 +2805,13 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="View Item Thread Group" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="View Item Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1430505895000</longProp>
         <longProp name="ThreadGroup.end_time">1430505895000</longProp>
@@ -3290,13 +3289,13 @@
           </hashTree>
         </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Editing Metadata Thread Group" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Editing Metadata Thread Group" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">3</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1430775875000</longProp>
         <longProp name="ThreadGroup.end_time">1430775875000</longProp>

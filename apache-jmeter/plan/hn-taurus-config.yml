@@ -1,15 +1,26 @@
 ---
 execution:
   scenario:
-   script: hn-test-plan.jmx
+    script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
+  concurrency: 1
+  ramp-up: 5s
+  iterations: 1
 modules:
-# store report on blazemeter.com 
-#  blazemeter:
-#    token: 53669adc226f75ba341e
-# enable/disable console report
+  blazemeter:
+    browser-open: false
+    token: 53669adc226f75ba341e
   console:
     disable: true
+  consolidator:
+    generalize-labels: false
 reporting:
-#  - module: blazemeter
-#    test: HydraNorth Performance Testing
+  - module: blazemeter
+    test: HydraNorth Load Testing
   - module: console
+  - module: junit-xml
+    filename: ./junit.xml
+    data-source: pass-fail
+  - module: fail-criteria
+    criterias:
+    - avg-rt>120s for 30s, continue as failed
+    - fail>10% for 10s, continue as failed
