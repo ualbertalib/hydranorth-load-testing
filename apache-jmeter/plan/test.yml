@@ -12,7 +12,7 @@ execution:
 
 modules:
   blazemeter:
-    browser-open: false
+    browser-open: true
     token: 53669adc226f75ba341e
   console:
     disable: true

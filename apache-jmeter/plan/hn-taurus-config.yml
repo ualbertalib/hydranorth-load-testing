@@ -2,7 +2,7 @@
 execution:
   scenario:
     script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
-  concurrency: 3
+  concurrency: 5
   ramp-up: 5s
   iterations: 3
 modules:
