@@ -11,8 +11,11 @@ execution:
       - http://blazedemo.com/vacation.html
 
 modules:
+  jmeter:
+    properties:
+      jmeter.save.saveservice.output_format: xml      
   blazemeter:
-    browser-open: true
+    browser-open: false
     token: 53669adc226f75ba341e
   console:
     disable: true

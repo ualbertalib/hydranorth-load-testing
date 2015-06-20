@@ -1,4 +1,5 @@
 junit.xml
-bzt.log
+*.log
 *.url
 2015-*
+*.jtl

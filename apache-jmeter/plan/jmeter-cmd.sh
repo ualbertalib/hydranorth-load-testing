@@ -1,0 +1,1 @@
+jmeter -n -t test-taurus.jmx -l test-taurus.jtl -Jjmeter.save.saveservice.output_format=xml -Jjmeterengine.stopfail.system.exit=true
