@@ -6,6 +6,7 @@ execution:
   ramp-up: 5s
   iterations: 3
 modules:
+	
   console:
     disable: true
   consolidator:

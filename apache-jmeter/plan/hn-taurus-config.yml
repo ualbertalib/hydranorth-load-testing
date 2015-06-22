@@ -4,7 +4,8 @@ execution:
     script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
   concurrency: 10
   ramp-up: 5s
-  iterations: 3
+  hold-for: 5m
+#  iterations: 3
 modules:
   blazemeter:
     browser-open: false
