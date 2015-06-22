@@ -106,26 +106,20 @@
             <message>true</message>
             <threadName>true</threadName>
             <dataType>true</dataType>
-            <encoding>true</encoding>
+            <encoding>false</encoding>
             <assertions>true</assertions>
             <subresults>true</subresults>
-            <responseData>true</responseData>
-            <samplerData>true</samplerData>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
             <xml>true</xml>
             <fieldNames>false</fieldNames>
-            <responseHeaders>true</responseHeaders>
-            <requestHeaders>true</requestHeaders>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
             <responseDataOnError>false</responseDataOnError>
-            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <saveAssertionResultsFailureMessage>false</saveAssertionResultsFailureMessage>
             <assertionsResultsToSave>0</assertionsResultsToSave>
             <bytes>true</bytes>
-            <url>true</url>
-            <fileName>true</fileName>
-            <hostname>true</hostname>
             <threadCounts>true</threadCounts>
-            <sampleCount>true</sampleCount>
-            <idleTime>true</idleTime>
-            <connectTime>true</connectTime>
           </value>
         </objProp>
         <stringProp name="filename">./hn-test-plan-data.jtl</stringProp>
