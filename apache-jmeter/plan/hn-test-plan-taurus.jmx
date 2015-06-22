@@ -114,7 +114,7 @@
             <xml>true</xml>
             <fieldNames>false</fieldNames>
             <responseHeaders>true</responseHeaders>
-            <requestHeaders>false</requestHeaders>
+            <requestHeaders>true</requestHeaders>
             <responseDataOnError>false</responseDataOnError>
             <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
             <assertionsResultsToSave>0</assertionsResultsToSave>
@@ -128,7 +128,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">hn-test-plan-data.jtl</stringProp>
+        <stringProp name="filename">./hn-test-plan-data.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Upload Thread Group" enabled="true">
