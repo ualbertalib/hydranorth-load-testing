@@ -7,9 +7,9 @@ execution:
   hold-for: 5m
 #  iterations: 3
 modules:
-#  jmeter:
-#    properties:
-#      https.use.cached.ssl.context=false
+  jmeter:
+    properties:
+      https.use.cached.ssl.context=false
   blazemeter:
     browser-open: false
     token: 5596978ab1bcf62c788f

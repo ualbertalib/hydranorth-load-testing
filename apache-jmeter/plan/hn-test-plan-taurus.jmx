@@ -22,9 +22,16 @@
         <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
-        <stringProp name="HTTPSampler.implementation">Java</stringProp>
+        <stringProp name="HTTPSampler.implementation">HttpClient3.1</stringProp>
         <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
       </ConfigTestElement>
+      <hashTree/>
+      <KeystoreConfig guiclass="TestBeanGUI" testclass="KeystoreConfig" testname="Keystore Configuration" enabled="true">
+        <stringProp name="preload">True</stringProp>
+        <stringProp name="clientCertAliasVarName">era-test</stringProp>
+        <stringProp name="startIndex">0</stringProp>
+        <stringProp name="endIndex">10000</stringProp>
+      </KeystoreConfig>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
