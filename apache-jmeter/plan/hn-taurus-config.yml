@@ -9,7 +9,7 @@ execution:
 modules:
   jmeter:
     properties:
-      https.use.cached.ssl.context=false
+      https.use.cached.ssl.context: false
   blazemeter:
     browser-open: false
     token: 5596978ab1bcf62c788f
