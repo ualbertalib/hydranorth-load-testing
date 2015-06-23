@@ -16,13 +16,13 @@
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
         <stringProp name="HTTPSampler.domain">era-test.library.ualberta.ca</stringProp>
-        <stringProp name="HTTPSampler.port">443</stringProp>
+        <stringProp name="HTTPSampler.port"></stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
         <stringProp name="HTTPSampler.protocol">https</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
-        <stringProp name="HTTPSampler.implementation">HttpClient3.1</stringProp>
+        <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
         <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
       </ConfigTestElement>
       <hashTree/>
