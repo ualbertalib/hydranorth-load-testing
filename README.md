@@ -1,3 +1,3 @@
 # hydranorth-test-results
 
-* [test results](./apache-jmeter/test-results)
+* [Test Results](./apache-jmeter/test-results)
