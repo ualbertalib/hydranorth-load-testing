@@ -22,6 +22,11 @@
 * Right click on HydraNorth Load Testing Plan then select Merge menu item and open [hn-test-workbench.jmx](./plan/hn-test-workbench.jmx) for Test Script Recorder(HTTP Proxy Server).
 * [HTTP(S) Test Script Recorder (was: HTTP Proxy Server )](http://jmeter.apache.org/usermanual/component_reference.html)
 
+## Taurus
+
+* Github project: [https://github.com/Blazemeter/taurus](https://github.com/Blazemeter/taurus)
+* [Documentation](https://github.com/Blazemeter/taurus/blob/master/docs/Home.md) 
+
 ## Jenkins
 
 ### Configuration
