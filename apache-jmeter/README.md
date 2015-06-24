@@ -3,6 +3,7 @@
 ![alt text](jenkins-taurus-jmeter.png "Jenkins + Taurus + JMeter")
 
 * [JMeter](#jmeter)
+* [Taurus](#Taurus)
 * [Jenkins](#jenkins)
 * [Blazemeter](#blazemeter)
 
@@ -25,7 +26,8 @@
 ## Taurus
 
 * Github project: [https://github.com/Blazemeter/taurus](https://github.com/Blazemeter/taurus)
-* [Documentation](https://github.com/Blazemeter/taurus/blob/master/docs/Home.md) 
+* [Documentation](https://github.com/Blazemeter/taurus/blob/master/docs/Home.md)
+* [Configuration](./plan/hn-taurus-config.yml)  
 
 ## Jenkins
 
@@ -39,11 +41,9 @@
     * Repository URL: https://github.com/ualbertalib/hydranorth-load-testing
   * Additional Behaviours: Clean before checkout
 * Build Triggers
-
-   [x] Build after other projects are built
+  * [x] Build after other projects are built
     * Projects to watch: HydraNorth
-    
-       [x] Trigger only if build is stable
+      * [x] Trigger only if build is stable
 * Build Environment
   * [x] Delete workspace before build starts
 * Build 
@@ -57,9 +57,8 @@
        ```
 * Post-build Actions
   * Aggregate downstream test results
-  
-     [x] Automatically aggregate all downstream tests
-     [x] Include failed builds in results
+    *  [x] Automatically aggregate all downstream tests
+    *  [x] Include failed builds in results
   * Publish JUnit test result report
      * Test report XMLs: junit.xml
   * Publish Performance test result report
