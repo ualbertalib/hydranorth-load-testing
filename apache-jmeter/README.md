@@ -50,12 +50,11 @@
 * Build
   * Execute shell
     * Command:
-    
-       ```bash
-       # jmeter jvm options, working with jdk8 without ssl options
-       export JVM_ARGS="-Xms512m -Xmx1024m"
-       bzt ./apache-jmeter/plan/hn-taurus-config.yml
-       ```
+  ```bash
+  # jmeter jvm options, working with jdk8 without ssl options
+  export JVM_ARGS="-Xms512m -Xmx1024m"
+  bzt ./apache-jmeter/plan/hn-taurus-config.yml
+  ```
 * Post-build Actions
   * Aggregate downstream test results
     * [x] Automatically aggregate all downstream tests
