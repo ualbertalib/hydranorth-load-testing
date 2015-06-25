@@ -1,6 +1,6 @@
 # hydranorth-load-testing
 
-  * [Jenkin + Taurus + JMeter](./apache-jmeter/README.md)
+  * [Jenkins + Taurus + JMeter](./apache-jmeter/README.md)
   * [Apache Benchmarking Tool](./apache-benchmark/README.md)
   * [Apache Tomcat JMX Monitoring](./tomcat-jmx-monitoring/README.md)
   * [Apache MySQL Monitoring](./mysql-monitoring/README.md)

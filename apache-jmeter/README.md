@@ -36,7 +36,7 @@
 
 * Jenkins CI Server: [http://cardiff.library.ualberta.ca/](http://cardiff.library.ualberta.ca/)
 * GitHub project: [https://github.com/ualbertalib/hydranorth-load-testing/](https://github.com/ualbertalib/hydranorth-load-testing/)
-* JDK: Java 8
+* JDK: Java 7 (need https.protocols option) or Java 8
 * Source Code Management
   * Git
     * Repository URL: https://github.com/ualbertalib/hydranorth-load-testing
@@ -47,10 +47,9 @@
       * [x] Trigger only if build is stable
 * Build Environment
   * [x] Delete workspace before build starts
-* Build 
+* Build
   * Execute shell
-     * Command:
-    
+    * Command:
        ```bash
        # jmeter jvm options, working with jdk8 without ssl options
        export JVM_ARGS="-Xms512m -Xmx1024m"
@@ -58,16 +57,14 @@
        ```
 * Post-build Actions
   * Aggregate downstream test results
-    *  [x] Automatically aggregate all downstream tests
-    *  [x] Include failed builds in results
+    * [x] Automatically aggregate all downstream tests
+    * [x] Include failed builds in results
   * Publish JUnit test result report
      * Test report XMLs: junit.xml
   * Publish Performance test result report
-     * Performance report
-        * JMeter
-         
-         Report files: **/hn-test-plan-data.jtl          
-
+    * Performance report
+      * JMeter
+        * Report files: **/hn-test-plan-data.jtl
 * Screen Shot
 
 ![alt text](./jenkins-configuration.png "Jenkins Configuration")
@@ -85,6 +82,3 @@
 * Search for: "Online report link" and click on the link
 
 
-
-
-    
