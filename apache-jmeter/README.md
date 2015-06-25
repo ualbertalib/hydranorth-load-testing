@@ -17,7 +17,7 @@
 * Start JMeter and open [hn-test-plan-taurus.jmx](./plan/hn-test-plan.jmx)
 * Right click on HydraNorth Load Testing Plan then select Merge menu item and open [hn-test-workbench.jmx](./plan/hn-test-workbench.jmx) for Test Script Recorder(HTTP Proxy Server).
 * Run the HydraNorth Load Testing test plan.
-* [Test results](./tree/test-results) 
+* [Test results](/ualbertalib/hydranorth-load-testing/tree/test-results/apache-jmeter/test-results)
 
 ### Setup Test Script Recorder
 
@@ -50,6 +50,7 @@
 * Build
   * Execute shell
     * Command:
+    
        ```bash
        # jmeter jvm options, working with jdk8 without ssl options
        export JVM_ARGS="-Xms512m -Xmx1024m"
