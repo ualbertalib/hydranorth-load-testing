@@ -4,7 +4,7 @@ execution:
     script: ./apache-jmeter/plan/hn-test-plan-taurus.jmx
   concurrency: 20
   ramp-up: 5s
-  hold-for: 15m
+  hold-for: 10m
 modules:
   jmeter:
     properties:
