@@ -3,7 +3,7 @@
 ![alt text](jenkins-taurus-jmeter.png "Jenkins + Taurus + JMeter")
 
 * [JMeter](#jmeter)
-* [Taurus](#Taurus)
+* [Taurus](#taurus)
 * [Jenkins](#jenkins)
 * [Blazemeter](#blazemeter)
 

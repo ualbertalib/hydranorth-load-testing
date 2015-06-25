@@ -8,7 +8,7 @@ execution:
 modules:
   jmeter:
     properties:
-      https.use.cached.ssl.context: false
+      https.default.protocol: TLSv1.2
   blazemeter:
     browser-open: false
     token: 5596978ab1bcf62c788f
