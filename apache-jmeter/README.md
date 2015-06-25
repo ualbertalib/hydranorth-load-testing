@@ -36,7 +36,7 @@
 
 * Jenkins CI Server: [http://cardiff.library.ualberta.ca/](http://cardiff.library.ualberta.ca/)
 * GitHub project: [https://github.com/ualbertalib/hydranorth-load-testing/](https://github.com/ualbertalib/hydranorth-load-testing/)
-* JDK: Java 7 (need https.protocols option) or Java 8
+* JDK: Java 7 (needs https.default.protocol: TLSv1.2 in taurus config file) or Java 8
 * Source Code Management
   * Git
     * Repository URL: https://github.com/ualbertalib/hydranorth-load-testing
@@ -51,7 +51,7 @@
   * Execute shell
     * Command:
   ```bash
-  # jmeter jvm options, working with jdk8 without ssl options
+  # jmeter jvm options
   export JVM_ARGS="-Xms512m -Xmx1024m"
   bzt ./apache-jmeter/plan/hn-taurus-config.yml
   ```
