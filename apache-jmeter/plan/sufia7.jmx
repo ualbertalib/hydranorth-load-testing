@@ -30,7 +30,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">sufia7.library.ualberta.ca</stringProp>
+          <stringProp name="HTTPSampler.domain">${APP_HOSTNAME}</stringProp>
           <stringProp name="HTTPSampler.port">80</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
@@ -1029,6 +1029,12 @@
             <stringProp name="Argument.name">CONFIG_PATH</stringProp>
             <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer; FileServer.getFileServer().getBaseDir();)}</stringProp>
             <stringProp name="Argument.desc">where the jmx is located</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="APP_HOSTNAME" elementType="Argument">
+            <stringProp name="Argument.name">APP_HOSTNAME</stringProp>
+            <stringProp name="Argument.value">${__P(APP_HOSTNAME,sufia7.library.ualberta.ca)}</stringProp>
+            <stringProp name="Argument.desc">target for the load tests</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
